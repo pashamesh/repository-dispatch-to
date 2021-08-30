@@ -6,3 +6,12 @@ jobs:
   repository-dispatch-from-update:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Composer update action
+        uses: kawax/composer-update-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.PA_GITHUB_TOKEN }}
+          APP_SINGLE_BRANCH: true
+          GIT_COMMIT_PREFIX: '[UPDATE] '
+          COMPOSER_PACKAGES: 'pashamesh/repository-dispatch-from'
