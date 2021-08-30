@@ -1,0 +1,28 @@
+{
+    "name": "pashamesh/repository-dispatch-to",
+    "description": "GitHub actions repository dispatch event to test",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pashamesh\\RepositoryDispatchTo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pasha Mesh",
+            "email": "pasha.mesh@gmail.com"
+        }
+    ],
+    "require": {
+        "pashamesh/repository-dispatch-from": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": {
+        "repository-dispatch-from": {
+            "type": "github",
+            "url": "git@github.com:pashamesh/repository-dispatch-from"
+        }
+    }
+}

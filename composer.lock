@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "374d5d93b4de66fcef5e8257da8f00a8",
+    "packages": [
+        {
+            "name": "pashamesh/repository-dispatch-from",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pashamesh/repository-dispatch-from.git",
+                "reference": "27754be1f0794cee209f16df69807a53bbd3191d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pashamesh/repository-dispatch-from/zipball/27754be1f0794cee209f16df69807a53bbd3191d",
+                "reference": "27754be1f0794cee209f16df69807a53bbd3191d",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pashamesh\\RepositoryDispatchFrom\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pasha Mesh",
+                    "email": "pasha.mesh@gmail.com"
+                }
+            ],
+            "description": "GitHub actions repository dispatch event from test",
+            "support": {
+                "source": "https://github.com/pashamesh/repository-dispatch-from/tree/master",
+                "issues": "https://github.com/pashamesh/repository-dispatch-from/issues"
+            },
+            "time": "2021-08-30T12:20:01+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pashamesh/repository-dispatch-from": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

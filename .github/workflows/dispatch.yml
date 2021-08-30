@@ -1,0 +1,8 @@
+name: Repository Dispatch
+on:
+  repository_dispatch:
+    types: [repository-dispatch-from-update]
+jobs:
+  repository-dispatch-from-update:
+    runs-on: ubuntu-latest
+    steps:
