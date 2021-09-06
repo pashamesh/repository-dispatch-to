@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pashamesh/repository-dispatch-from.git",
-                "reference": "27754be1f0794cee209f16df69807a53bbd3191d"
+                "reference": "41b6ab98c9909e4f52729dfa42619bfc4f255c21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pashamesh/repository-dispatch-from/zipball/27754be1f0794cee209f16df69807a53bbd3191d",
-                "reference": "27754be1f0794cee209f16df69807a53bbd3191d",
+                "url": "https://api.github.com/repos/pashamesh/repository-dispatch-from/zipball/41b6ab98c9909e4f52729dfa42619bfc4f255c21",
+                "reference": "41b6ab98c9909e4f52729dfa42619bfc4f255c21",
                 "shasum": ""
             },
             "default-branch": true,
@@ -41,7 +41,7 @@
                 "source": "https://github.com/pashamesh/repository-dispatch-from/tree/master",
                 "issues": "https://github.com/pashamesh/repository-dispatch-from/issues"
             },
-            "time": "2021-08-30T12:20:01+00:00"
+            "time": "2021-08-30T12:46:27+00:00"
         }
     ],
     "packages-dev": [
