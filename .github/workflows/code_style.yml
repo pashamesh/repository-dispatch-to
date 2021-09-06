@@ -1,6 +1,12 @@
 name: Code style
 
-on: [push]
+on:
+  push:
+  workflow_run:
+    workflows: [ "Repository Dispatch" ]
+    branches: [master-updated]
+    types:
+      - completed
 
 jobs:
   php-cs-fixer:
