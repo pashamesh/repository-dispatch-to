@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PA_GITHUB_TOKEN }}
       - name: Composer update action
         uses: kawax/composer-update-action@v2
         env:
