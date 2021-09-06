@@ -4,6 +4,7 @@ on:
   push:
   workflow_run:
     workflows: [ "Repository Dispatch" ]
+    branches: [master-updated]
     types:
       - completed
 
